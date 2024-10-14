@@ -1,0 +1,74 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}   
+<html>
+ <head>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-white">
+  <!-- Header -->
+  <div class="bg-black text-white flex justify-between items-center p-4">
+   <div class="flex space-x-4">
+    <button class="flex items-center space-x-2">
+     <i class="fas fa-motorcycle">
+     </i>
+     <span>
+      Đặt Ngay
+     </span>
+    </button>
+    <button class="flex items-center space-x-2">
+     <i class="fas fa-truck">
+     </i>
+     <span>
+      Giao Hàng
+     </span>
+    </button>
+    <button class="flex items-center space-x-2">
+     <i class="fas fa-store">
+     </i>
+     <span>
+      hoặc Mang đi
+     </span>
+    </button>
+   </div>
+   <button class="bg-red-600 text-white px-4 py-2 rounded">
+    Bắt đầu đặt hàng
+   </button>
+  </div>
+  <!-- Breadcrumb -->
+  <div class="text-gray-500 text-sm mt-4 ml-4">
+   Burger - Cơm - Mì Ý &gt; Burger Tôm
+  </div>
+  <!-- Main Content -->
+  <div class="flex justify-center items-center mt-8">
+   <!-- Image Section -->
+   <div class="w-1/2 flex justify-center">
+    <img alt="A delicious shrimp burger with lettuce and sauce in a sesame seed bun" class="rounded" height="400" src="https://storage.googleapis.com/a1aa/image/4pAJdQwZHDppDJAcR2K7bH7YeRBaq6Ng41P1mcEA2qje1tmTA.jpg" width="400"/>
+   </div>
+   <!-- Description Section -->
+   <div class="w-1/2 flex justify-center">
+    <div class="bg-white shadow-lg rounded-lg p-6 w-3/4">
+     <div class="flex items-center space-x-2 mb-4">
+      <div class="w-1 h-6 bg-red-600">
+      </div>
+      <div class="w-1 h-6 bg-red-600">
+      </div>
+      <div class="w-1 h-6 bg-red-600">
+      </div>
+     </div>
+     <h2 class="text-2xl font-bold mb-2">
+      BURGER TÔM
+     </h2>
+     <p class="text-gray-500 mb-4">
+      1 Burger Tôm
+     </p>
+     <button class="bg-gray-300 text-gray-700 px-4 py-2 rounded w-full">
+      Thêm
+     </button>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

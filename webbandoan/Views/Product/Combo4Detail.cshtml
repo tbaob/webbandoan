@@ -1,0 +1,56 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+<html>
+<head>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+</head>
+<body class="bg-white">
+    <!-- Header -->
+    <div class="bg-black text-white flex justify-between items-center p-4">
+        <div class="flex space-x-4">
+            <a class="hover:underline" href="#">
+                Đặt Ngay
+            </a>
+            <a class="hover:underline" href="#">
+                Giao Hàng
+            </a>
+            <a class="hover:underline" href="#">
+                hoặc Mang đi
+            </a>
+        </div>
+        <button class="bg-red-600 text-white px-4 py-2 rounded">
+            Bắt đầu đặt hàng
+        </button>
+    </div>
+    <!-- Breadcrumb -->
+    <div class="text-center my-4 text-gray-600">
+        Món Mới &gt; 1 Burger Bánh Mì
+    </div>
+    <!-- Main Content -->
+    <div class="flex justify-center items-start space-x-8">
+        <!-- Image Section -->
+        <div>
+            <img alt="Burger Bánh Mì with a sesame seed bun, lettuce, and fried chicken patty" class="w-96 h-96 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/EI3dn3edmnzKWCqt6XjcZWfumJTwgoqK34YxeERsDjCw2cNnA.jpg" width="400" />
+        </div>
+        <!-- Description Section -->
+        <div class="bg-white shadow-md rounded-lg p-6 w-80">
+            <div class="flex items-center space-x-2 mb-4">
+                <div class="bg-red-600 h-6 w-1">
+                </div>
+                <h2 class="text-2xl font-bold">
+                    1 BURGER BÁNH MÌ
+                </h2>
+            </div>
+            <p class="text-gray-600 mb-6">
+                1 Burger Bánh Mì
+            </p>
+            <button class="bg-gray-300 text-gray-700 px-4 py-2 rounded w-full">
+                Thêm
+            </button>
+        </div>
+    </div>
+</body>
+</html>
